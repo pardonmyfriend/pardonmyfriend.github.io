@@ -1,0 +1,36 @@
+﻿<rss version="2.0">
+	<channel>
+		<title>Kanał RSS dla materiałów wideo</title>
+		<link>http://bsd.iele.polsl.pl/~kedziera/</link>
+		<description>Elektronika w moim domu</description>
+		<language>pl-pl</language>
+		<copyright>Copyright 2018</copyright>
+		
+		<item>
+			<title>Wideo 1: Stacja pogodowa</title>
+			<pubDate>Sun, 26 Nov 2020 12:00:00 GMT</pubDate>
+			<link>http://bsd.iele.polsl.pl/~kedziera/wideo.html</link>
+			<description>Stacja pogodowa wykorzystująca technologię IoT.</description>
+			<guid>http://bsd.iele.polsl.pl/~kedziera/wideo/wideo01.mp4</guid>
+			<enclosure url="http://bsd.iele.polsl.pl/~kedziera/wideo/wideo01.mp4" length="20299782" type="video/mpeg"/>
+		</item>
+		
+		<item>
+			<title>Wideo 2: Komputer jednopłytkowy</title>
+			<pubDate>Sun, 26 Nov 2020 12:00:00 GMT</pubDate>
+			<link>http://bsd.iele.polsl.pl/~kedziera/audio.html</link>
+			<description>Komputer jednopłytkowy starszej generacji wykonany w domu.</description>
+			<guid>http://bsd.iele.polsl.pl/~kedziera/wideo/wideo02.mp4</guid>
+			<enclosure url="http://bsd.iele.polsl.pl/~kedziera/wideo/wideo02.mp4" length="21090317" type="video/mpeg"/>
+		</item>
+		
+		<item>
+			<title>Wideo 3: System rozproszonych wejść/wyjść</title>
+			<pubDate>Sun, 26 Nov 2020 12:00:00 GMT</pubDate>
+			<link>http://bsd.iele.polsl.pl/~kedziera/wideo.html</link>
+			<description>System rozproszonych wejść/wyjść dla sterownika Siemens.</description>
+			<guid>http://bsd.iele.polsl.pl/~kedziera/wideo/wideo03.mp4</guid>
+			<enclosure url="http://bsd.iele.polsl.pl/~kedziera/wideo/wideo03.mp4" length="16745627" type="video/mpeg"/>
+		</item>
+	</channel>
+</rss>
