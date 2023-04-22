@@ -1,0 +1,182 @@
+body
+{
+	background-color: #404040;
+	font-family: 'Oswald', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	font-family: 'Goldman', cursive;
+}
+
+#menu
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color: #ffffff;
+	padding: 10px;
+	min-height: 45px;	
+}
+
+#topbar
+{
+	background-color: #006060;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 122px;	
+}
+
+#topbarL
+{
+	float: left;
+	height: 122px;
+	width: 180px;
+	text-align: center;
+}
+
+#topbarR
+{
+	float: left;
+	padding: 30px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#content
+{
+	display: flex;
+	justify-content: stretch;
+	flex-direction: row;
+	min-height: 336px;
+}
+
+#nav
+{
+	float: left;
+	width: 138px;
+	padding: 20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666;
+}
+
+#article
+{
+	float: left;
+	padding: 40px;
+	width: 560px;
+	background-color: #dedede;
+	text-align: justify;
+}
+
+#aside
+{
+	float: left;
+	background-color: lightgray;
+	width: 138px;
+	padding: 20px;
+	font-size: 18px;
+	line-height: 150%;
+	border-left: 2px dotted #666666;
+}
+
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font: 18px;
+}
+
+.optionM
+{
+	float: left;
+	height: 25px;
+	min-width: 50px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.optionM:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.optionN
+{
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;	
+}
+
+.optionN:hover
+{
+	background-color: #CD5C5C;
+	color: white;
+	cursor: pointer;
+}
+
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.smalltitle
+{
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+.dottedline
+{
+	height: 5px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border-bottom: 2px dotted #444444;
+}
+
+.tilelinkM
+{
+	color: #ffffff;
+	text-decoration:none;
+	display: block;
+	width: 120px;
+	height: 35px;
+}
+
+.tilelinkN
+{
+	color: #000000;
+	text-decoration:none;
+	display: block;
+	height: 25px;
+	width: 118px;
+}
+
+img 
+{
+	margin: 2px;
+}
